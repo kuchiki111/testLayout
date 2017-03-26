@@ -3,45 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.testlayout.MainActivity" >
-
-    <LinearLayout
-        android:id="@+id/lly"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
-        android:gravity="center" >
-        
-        <LinearLayout 
-            android:id="@+id/top"
-            android:layout_width="200dp"
-            android:layout_height="90dp"
-            android:background="@drawable/styletop"
-            android:layout_gravity="center">
-            
-            <TextView 
-                android:id="@+id/month"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#ffffffff"
-                />
-        </LinearLayout>
-        
-        <LinearLayout 
-            android:id="@+id/bottom"
-            android:layout_width="200dp"
-            android:layout_height="130dp"
-            android:gravity="center"
-            android:background="@drawable/stylebottom"
-            android:layout_marginTop="-1dp">
-            
-            <TextView 
-                android:id="@+id/day"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#ff000000"/>
-        </LinearLayout>
-
-        
-    </LinearLayout>
+    
+    <com.example.testlayout.DateLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.example.testlayout.DateLayout>
 
 </RelativeLayout>

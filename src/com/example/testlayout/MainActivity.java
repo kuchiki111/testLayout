@@ -19,15 +19,8 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		LinearLayout layout = (LinearLayout)findViewById(R.id.lly);	
 		
-		//Calendar date = Calendar.getInstance();
 		
-		TextView month = (TextView)findViewById(R.id.month);
-		TextView day = (TextView)findViewById(R.id.day);
-		
-		//month.setText(String.valueOf(date.get(Calendar.MONTH)+1)+"ÔÂ");
-		//day.setText(String.valueOf(date.get(Calendar.DAY_OF_MONTH))+"ÈÕ");
 	}
 
 	@Override
